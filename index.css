@@ -1,0 +1,184 @@
+*
+{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p
+{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+p {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.about-para p{
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    color: #2f3a5e;
+    line-height: 28px;
+    font-size: 1rem;
+}
+
+#section{
+    padding: 0 20rem;
+    
+}
+#header
+{
+    
+}
+#section,#home,#about,#contact
+{
+
+padding-top: 80px;
+}
+
+/*Header*/
+
+/*HOME*/
+
+
+
+
+/*About*/
+#about h1
+{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color:black;
+    text-align: center;
+    
+}
+span
+{
+    font-weight: 500;
+}
+.headline-para p
+{
+    font-size: 20px;
+}
+.navyblue
+{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: rgb(6, 6, 82);
+}
+
+.orange
+{
+    font-size: 2.8rem;
+    font-weight: 700;
+    
+    color: red;
+}
+
+
+#about p{
+    text-align: center;
+}
+
+.about-box
+{
+    text-align: center;
+    color: white;
+    margin: 0 -20rem;
+    padding: 50px 20rem;
+    background: linear-gradient(80deg, rgba(58, 183, 250, 1) 0%, rgba(101, 93, 172, 1) 100%);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.about-box .mission
+{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.leadership, .ourculture
+{
+    padding-top: 100px;
+    text-align: center;
+}
+.contactus
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
+#home
+{
+    height: 100vh;
+}
+.person-image
+{
+    width: 200px;
+    border-radius: 50%;
+}
+.social-icon
+{
+    padding: 40px 0;
+}
+.social-icon a {
+    font-size: 30px; /* Increase the size here */
+    margin: 10px; /* Optional: Add some spacing between the icons */
+}
+.title
+{
+    font-size: 20px;
+    font-weight: 600;
+}
+.title:hover
+{
+    color: blue;
+}
+
+.paraa
+{
+    padding-top: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+#contact
+{
+    height: 100vh;
+}
+
+
+
+/*Contact*/
+
+
+
+/*Footer*/
+
+
+@media (max-width: 767.99px) {
+    #about h1 {
+        font-weight: 700;
+        color: #000;
+        font-size: 28px;
+        line-height: initial;
+        text-align: left;
+    }
+
+    #section{
+        padding: 0;
+        text-align: left;
+    }
+
+    
+    #about p
+    {
+        text-align: left;
+    }
+
+    .about-box
+    {
+        margin: 0;
+        padding: 10px 0;     
+    }
+
+}
+
